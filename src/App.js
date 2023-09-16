@@ -5,7 +5,9 @@ import { Bmo } from "./Bmo/Bmo";
 function App() {
   return (
     <div className="App">
-      {/* <LumpySpacePrincess /> */}
+      <div className="lumpySpacePrincess">
+        <LumpySpacePrincess />
+      </div>
       <Bmo />
     </div>
   );

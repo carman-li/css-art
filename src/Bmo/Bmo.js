@@ -16,6 +16,24 @@ export function Bmo() {
         <div className={styles.slot}></div>
         <div className={styles.slotButton}></div>
       </div>
+      <div className={styles.buttonContainer}>
+        <div className={styles.plusButtonBorder}>
+          <div className={styles.plusButton}></div>
+        </div>
+        <div className={styles.buttonClusters}>
+          <div className={styles.buttonCluster1}>
+            <div className={styles.triangleButtonBorder}>
+              <div className={styles.triangleButton}></div>
+            </div>
+            <div className={styles.circleButtonLg}></div>
+          </div>
+          <div className={styles.circleButtonSm}></div>
+        </div>
+      </div>
+      <div className={styles.buttonClusters}>
+        <div className={styles.rectangleButton}></div>
+        <div className={styles.rectangleButton}></div>
+      </div>
     </div>
   );
 }

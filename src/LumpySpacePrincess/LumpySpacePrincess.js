@@ -1,6 +1,6 @@
 import styles from "./LumpySpacePrincess.module.css";
 
-export function LumpySpacePrincess() {
+export function LumpySpacePrincess({ isBorder }) {
   return (
     <div className={styles.body}>
       <div

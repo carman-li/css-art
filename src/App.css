@@ -6,3 +6,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.lumpySpacePrincess {
+  /* padding is used in lsp parent div to offset negative margins of lumps */
+  padding: calc(var(--blob-lg-height) / 4);
+  padding-top: calc(var(--blob-lg-height) / 3);
+}
