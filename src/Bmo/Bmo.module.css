@@ -1,0 +1,75 @@
+:root {
+  --bmo-primary-color: #5ea797;
+  --bmo-height: 30vmin;
+  --bmo-width: 20vmin;
+  --bmo-padding: 3vmin;
+}
+
+.body {
+  background-color: var(--bmo-primary-color);
+  border: 0.5vmin solid black;
+  border-radius: 10%;
+  height: var(--bmo-height);
+  width: var(--bmo-width);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: var(--bmo-padding);
+}
+
+.screen {
+  background-color: #c0ffcc;
+  border: 0.5vmin solid black;
+  border-radius: 10%;
+  height: calc((var(--bmo-height) / 2) - (var(--bmo-padding)));
+  width: calc(var(--bmo-width));
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: calc(((var(--bmo-height) / 2) - (var(--bmo-padding))) / 6);
+  margin-bottom: calc(var(--bmo-padding) / 2);
+}
+
+.eyes {
+  display: flex;
+}
+
+.eye {
+  background-color: black;
+  height: 0.75vmin;
+  width: 0.75vmin;
+  border-radius: 50%;
+  margin: 0 calc(var(--bmo-width) / 5);
+}
+
+.mouth {
+  border-bottom: 0.5vmin solid black;
+  background-color: none;
+  border-radius: 45%;
+  height: 2vmin;
+  width: calc(var(--bmo-width) / 4);
+}
+
+.slotContainer {
+  display: flex;
+}
+
+.slot {
+  background-color: #1a312b;
+  border: 0.5vmin solid black;
+  border-radius: 20%;
+  height: 1vmin;
+  width: calc(var(--bmo-width) / 2);
+}
+
+.slotButton {
+  background-color: #1d05aa;
+  border: 0.5vmin solid black;
+
+  height: 1vmin;
+  width: 2vmin;
+  border-radius: 50%;
+  margin: 0 2vmin;
+}
